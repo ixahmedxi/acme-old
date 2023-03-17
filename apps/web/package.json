@@ -1,0 +1,24 @@
+{
+  "name": "@acme/web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Acme's Nextjs web application",
+  "license": "MIT",
+  "author": "Ahmed Elsakaan",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@acme/tsconfig": "^0.1.0",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11"
+  }
+}
