@@ -1,0 +1,11 @@
+{
+  "name": "acme",
+  "version": "0.1.0",
+  "description": "A monorepo starter point",
+  "author": "Ahmed Elsakaan",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "pnpm@7.29.2"
+}
