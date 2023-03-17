@@ -1,10 +1,10 @@
 {
   "name": "@acme/tsconfig",
   "version": "0.1.0",
-  "description": "Workspace TypeScript configuration presets",
   "private": true,
-  "author": "Ahmed Elsakaan",
+  "description": "Workspace TypeScript configuration presets",
   "license": "MIT",
+  "author": "Ahmed Elsakaan",
   "files": [
     "./base.json",
     "./nextjs.json",

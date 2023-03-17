@@ -1,0 +1,31 @@
+{
+  "name": "@acme/database",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Prisma database package for Acme",
+  "license": "MIT",
+  "author": "Ahmed Elsakaan",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "db:generate": "prisma generate",
+    "db:studio": "prisma studio",
+    "db:push": "prisma db push"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.11.0"
+  },
+  "devDependencies": {
+    "@acme/tsconfig": "^0.1.0",
+    "prisma": "^4.11.0",
+    "tsup": "^6.6.3"
+  }
+}
