@@ -1,0 +1,5 @@
+{
+  "extends": ["@acme/tsconfig/base"],
+  "include": ["*.ts", "*.tsx", "*.cjs", ".eslintrc.cjs"],
+  "exclude": ["node_modules"]
+}
