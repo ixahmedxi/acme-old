@@ -18,7 +18,8 @@
     "db:generate": "prisma generate",
     "db:push": "prisma db push",
     "db:studio": "prisma studio",
-    "dev": "tsup --watch"
+    "dev": "tsup --watch",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@prisma/client": "^4.11.0"
