@@ -15,10 +15,10 @@
   },
   "scripts": {
     "build": "tsup",
-    "dev": "tsup --watch",
     "db:generate": "prisma generate",
+    "db:push": "prisma db push",
     "db:studio": "prisma studio",
-    "db:push": "prisma db push"
+    "dev": "tsup --watch"
   },
   "dependencies": {
     "@prisma/client": "^4.11.0"

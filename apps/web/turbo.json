@@ -3,8 +3,8 @@
   "extends": ["//"],
   "pipeline": {
     "start": {
-      "dependsOn": ["build"],
       "cache": false,
+      "dependsOn": ["build"],
       "persistent": true
     }
   }

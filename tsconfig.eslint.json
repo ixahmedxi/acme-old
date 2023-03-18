@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "extends": "@acme/tsconfig/base",
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".eslintrc.cjs",
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.cjs"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "exclude": ["node_modules", ".next/**"],
+  "extends": "./tsconfig.json",
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".eslintrc.cjs",
+    "**/*.mjs",
+    "**/*.js",
+    "**/*.jsx"
+  ]
+}
