@@ -1,8 +1,8 @@
 {
-  "name": "@acme/database",
+  "name": "@acme/vitest",
   "version": "0.1.0",
   "private": true,
-  "description": "Prisma database package for Acme",
+  "description": "Shared vitest configuration presets for Acme",
   "license": "MIT",
   "author": "Ahmed Elsakaan",
   "exports": {
@@ -15,19 +15,18 @@
   },
   "scripts": {
     "build": "tsup",
-    "db:generate": "prisma generate",
-    "db:push": "prisma db push",
-    "db:studio": "prisma studio",
-    "dev": "tsup --watch",
+    "dev": "pnpm build --watch",
     "lint": "eslint .",
     "lint:fix": "pnpm lint --fix"
   },
   "dependencies": {
-    "@prisma/client": "^4.11.0"
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.2.0",
+    "vite-tsconfig-paths": "^4.0.7",
+    "vitest": "^0.29.3"
   },
   "devDependencies": {
-    "@acme/tsconfig": "^0.1.0",
-    "prisma": "^4.11.0",
+    "@acme/tsconfig": "workspace:^0.1.0",
     "tsup": "^6.6.3"
   }
 }

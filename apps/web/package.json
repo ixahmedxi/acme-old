@@ -9,6 +9,7 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
+    "lint:fix": "pnpm lint --fix",
     "start": "next start",
     "test": "vitest --run",
     "test:coverage": "vitest --run --coverage",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "@acme/tsconfig": "^0.1.0",
+    "@acme/vitest": "^0.1.0",
     "@prisma/nextjs-monorepo-workaround-plugin": "^4.11.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",

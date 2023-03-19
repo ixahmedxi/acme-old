@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "declarationMap": false,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "noEmit": false,
+    "resolvePackageJsonExports": true,
+    "types": ["vitest/globals"]
+  },
+  "extends": "@acme/tsconfig/base",
+  "include": ["**/*.ts", "**/*.mts"]
+}
