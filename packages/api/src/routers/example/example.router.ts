@@ -1,9 +1,10 @@
 import { z } from 'zod';
 
+import { protectedProcedure } from '../../middlewares/auth.middleware';
 import { createRouter, publicProcedure } from '../../utils/trpc';
 
-export const greetingRouter = createRouter({
-  greeting: publicProcedure
+export const exampleRouter = createRouter({
+  hello: publicProcedure
     .input(z.object({ name: z.string().optional() }).optional())
     .query(({ input }) => {
       return {
@@ -15,4 +16,7 @@ export const greetingRouter = createRouter({
 
     return examples;
   }),
+  secret: protectedProcedure.query(
+    () => "You're seeing this because you're logged in",
+  ),
 });
