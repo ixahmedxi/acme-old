@@ -26,7 +26,7 @@
     "vitest": "^0.29.3"
   },
   "devDependencies": {
-    "@acme/tsconfig": "workspace:^0.1.0",
+    "@acme/tsconfig": "^0.1.0",
     "tsup": "^6.6.3"
   }
 }
