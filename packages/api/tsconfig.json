@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "types": ["vitest/globals"]
+  },
+  "exclude": ["node_modules", "dist"],
+  "extends": "@acme/tsconfig/base",
+  "include": ["**/*.ts"]
+}
