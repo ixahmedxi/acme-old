@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "types": ["vitest/globals"]
+  },
+  "exclude": ["node_modules", "dist"],
+  "extends": "@acme/tsconfig/react-lib",
+  "include": ["**/*.ts", "**/*.tsx", "./vitest.setup.ts"],
+  "references": [
+    {
+      "path": "./tsconfig.declaration.json"
+    }
+  ]
+}
