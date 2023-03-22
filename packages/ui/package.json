@@ -13,7 +13,7 @@
     }
   },
   "scripts": {
-    "build": "pnpm build:dec && pnpm build:tsup",
+    "build": "pnpm build:tsup && pnpm build:dec",
     "build:dec": "tsc -p tsconfig.declaration.json",
     "build:tsup": "tsup",
     "dev": "concurrently \"pnpm build:tsup --watch\" \"pnpm build:dec --watch\"",
