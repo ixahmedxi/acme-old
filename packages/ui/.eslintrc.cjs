@@ -8,16 +8,16 @@ const config = {
       files: ['**/*.ts', '**/*.tsx'],
       parserOptions: {
         tsconfigRootDir: __dirname,
-        project: ['./tsconfig.json'],
+        project: ['./tsconfig.eslint.json'],
       },
       settings: {
         'import/resolver': {
           typescript: {
-            project: ['./tsconfig.json'],
+            project: ['./tsconfig.eslint.json'],
           },
           node: {
             extensions: ['.js', '.jsx', '.ts', '.tsx'],
-            project: ['./tsconfig.json'],
+            project: ['./tsconfig.eslint.json'],
           },
         },
       },
